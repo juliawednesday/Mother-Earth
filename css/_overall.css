@@ -27,7 +27,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .section-title {
-	font-weight: 700;
+font-weight: 700;
 font-size: 64px;
 line-height: 80px;
 color: var(--dark-color);
@@ -36,4 +36,15 @@ color: var(--dark-color);
 .section-title--center {
 	text-align: center;
 	max-width: none;
+}
+
+.btn {
+	font-weight: 800;
+	font-size: 12px;
+	letter-spacing: 2.18182px;
+	text-transform: uppercase;
+	border-radius: 8px;
+  color: var(--white-color);
+  padding: 33px 80px;
+
 }

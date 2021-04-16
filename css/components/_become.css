@@ -1,6 +1,7 @@
 .become {
 	background-color: #fff;
 	padding-top: 150px;
+	padding-bottom: 120px;
 }
 
 .become__title {
@@ -14,14 +15,16 @@
 }
 
 .become__item {
-	flex: 0 0 23,5%;
+	width: 23.5%;
 	margin-right: 2%;
+	margin-bottom: 2%;
 	overflow: hidden;
 	border-radius: 4px;
-	position:relative;
+	position: relative;
+	font-size: 0;
 }
 
-.become__item:nth-last-child(4n) {
+.become__item:nth-child(4n) {
 	margin-right: 0;
 }
 
@@ -29,8 +32,8 @@
 position: absolute;
 left: 0;
 bottom: 0;
-padding-left: 55px;
-padding-bottom: 63px;
+padding-left: 54px;
+padding-bottom: 64px;
 font-weight: 700;
 font-size: 24px;
 line-height: 31px;
@@ -38,3 +41,35 @@ color: var(--white-color);
 transform: translateY(300px);
 transition: transform 0.3s ease-in-out;
 }
+
+.become__image {
+	min-height: 100%;
+	object-fit: cover;
+}
+
+.become__item::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--neptune-color);
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.become__item:hover::before {
+	opacity: 0.8;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.become__item:hover .become__text {
+	transform: translateY(0);
+	transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+

@@ -45,13 +45,10 @@
 }
 
 .first__btn {
-	font-family: SFProDisplay;
 	background-color: var(--accent-color);
+	font-weight: 800;
 	position: relative;
 	z-index: 5;
-	transition: background-color 0.3s;
-	border-radius: 8px;
-	color: #fff;
 }
 
 .first__btn:hover {
