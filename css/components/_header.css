@@ -9,8 +9,8 @@
 
 .header__container {
 	justify-content: space-between;
-	padding-top: 55px;
 	align-items: center;
+	padding-top: 55px;
 	padding-bottom: 55px;
 }
 
@@ -28,6 +28,7 @@ display: block;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+transition: opacity 0.3s;
 }
 
 .social__link--fb {
@@ -39,7 +40,8 @@ background-size: cover;
 .social__link--tw {
 	background-image: url("/img/tw.svg");
 	width: 20px;
-	height: 17px;
+	height: 19px;
+	margin-left: 17px;
 }
 
 
