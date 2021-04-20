@@ -1,0 +1,13 @@
+.slider-container {
+	overflow: hidden;
+	width: 100%;
+}
+
+.featured-videos {
+	padding-top: 150px;
+}
+
+.featured-videos__descr {
+	text-align: center;
+	margin: 0 auto;
+}
