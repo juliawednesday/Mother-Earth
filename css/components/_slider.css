@@ -1,0 +1,43 @@
+.slider-container {
+	overflow-x: hidden;
+	padding: 100px 0;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.slider-container .swiper-slide {
+	position: relative;
+	border-radius: 8px;
+	min-height: 350px;
+	width: 690px;
+	transition: transform 0.3s;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	overflow: hidden;
+	background-color: rgb(193, 199, 199);
+}
+
+.slider-container .swiper-slide-active {
+	transform: scaleX(1.16) scaleY(1.2);
+	transition: transform 0.3s;
+}
+
+.featured-videos {
+	padding-top: 150px;
+	padding-bottom: 50px;
+}
+
+.featured-videos__descr {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 650px;
+	font-family: 'SFCompact', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #788692;
+	margin-top: 26px;
+}
