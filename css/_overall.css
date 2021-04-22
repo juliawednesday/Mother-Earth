@@ -47,5 +47,8 @@ color: var(--dark-color);
   color: var(--white-color);
   padding: 33px 80px;
   margin-bottom: 10px;
+}
 
+button {
+	background-color: transparent;
 }
