@@ -1,0 +1,12 @@
+.grid {
+	display: grid;
+}
+
+.insp__list {
+	grid-gap: 32px;
+  grid-template-columns: 1ft 1fr 1fr;
+}
+
+.insp__item {
+	background-color: blue;
+}
