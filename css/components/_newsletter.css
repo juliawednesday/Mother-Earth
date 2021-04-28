@@ -70,7 +70,16 @@
 	margin-top: 74px;
 	width: 100%;
 	background-color: var(--neptune-color);
+	transition: background-color 0.5s;
 	padding: 41px 80px;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
+
+
+.subscribe-form__btn:hover {
+	background-color: var(--neptune-hover-color);
+	transition: background-color 0.5s;
+}
+
+

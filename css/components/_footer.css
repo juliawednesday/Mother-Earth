@@ -35,7 +35,15 @@ color: #959ea6;
 font-weight: 500;
 display: inline-block;
 margin-bottom: 12px;
+transition: color 0.3s;
 }
+
+.footer__link:hover {
+color: #757b80;
+transition: color 0.3s;
+}
+
+
 
 .subs-form {
 	width: 368px;
@@ -55,9 +63,17 @@ margin-bottom: 12px;
 .subs-form__btn {
 	width: 100%;
 	background-color: var(--neptune-color);
+	transition: background-color 0.5s;
 	height: 64px;
 	margin-top: 16px;
 }
+
+.subs-form__btn:hover {
+	background-color: var(--neptune-hover-color);
+	transition: background-color 0.5s;
+}
+
+
 
 .footer__bottom {
 	border-top: 1px solid #d9d9d9;
