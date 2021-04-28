@@ -28,7 +28,12 @@ display: block;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-transition: opacity 0.3s;
+transition: opacity 0.5s;
+}
+
+.social__link:hover {
+opacity: 0.6;
+transition: opacity 0.5s;
 }
 
 .social__link--fb {
@@ -41,7 +46,7 @@ transition: opacity 0.3s;
 	background-image: url("/img/tw.svg");
 	width: 20px;
 	height: 19px;
-	margin-left: 17px;
+	margin-left: 30px;
 }
 
 
@@ -61,6 +66,11 @@ text-transform: uppercase;
 	position: relative;
 }
 
+.burger:hover .burger__line {
+	background-color: var(--accent-color);
+	transition: background-color 0.5s;
+}
+
 .burger__line {
 width: 100%;
 height: 2px;
@@ -69,6 +79,7 @@ display: block;
 position: absolute;
 right: 0;
 top: 0;
+transition: background-color 0.5s;
 }
 
 .burger__line:last-child {
