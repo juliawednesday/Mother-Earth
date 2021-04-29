@@ -22,7 +22,7 @@
 	overflow: hidden;
 }
 
-.swiper-slide::after {
+.slider-container .swiper-slide::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -55,7 +55,7 @@ transition: transform 0.4s;
 transform: translateY(0);
 }
 
-.swiper-slide-active::after {
+.slider-container .swiper-slide-active::after {
 	opacity: 1;
 	transform: opacity 0.4s;
 }
