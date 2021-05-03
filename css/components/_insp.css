@@ -36,6 +36,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cove;
+	overflow: hidden;
 }
 
 .insp__item::after {
