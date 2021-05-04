@@ -46,7 +46,6 @@
 
 .first__btn {
 	background-color: var(--accent-color);
-	font-weight: 800;
 	position: relative;
 	z-index: 5;
 	transition: background-color 0.5s;
@@ -60,7 +59,6 @@
 .first__bottom {
 	position: absolute;
 	left: 50%;
-	transform: translateX(-50%);
 	bottom: 0;
 	width: calc(100% - 60px);
 	display: flex;
@@ -69,7 +67,7 @@
 
 .search-form {
 	flex-shrink: 0;
-	width: 68%;
+	width: 80%;
 	position: relative;
 	overflow: hidden;
 	border-top-left-radius: 4px;
@@ -146,7 +144,7 @@
 }
 
 .main-slider__media {
-	max-height: 270px;
+	max-height: 279px;
 }
 
 @media (max-height: 1079px) {
@@ -182,7 +180,7 @@
 	.first__title {
 		font-size: 65px;
 		line-height: 65px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	.first__descr {
@@ -191,6 +189,6 @@
 	}
 
 	.first__btn {
-		padding: 23px 35px;
+		padding: 23px 40px;
 	}
 }
