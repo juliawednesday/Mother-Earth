@@ -49,7 +49,7 @@ font-size: 48px;
 line-height: 64px;
 color: var(--white-color);
 max-width: 40%;
-margin-bottom: 40px;
+margin-bottom: 20px;
 }
 
 .blog-article__descr {
@@ -58,7 +58,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 21px;
 color: var(--white-color);
-margin-bottom: 50px;
+margin-bottom: 80px;
 max-width: 40%;
 }
 
@@ -66,7 +66,7 @@ max-width: 40%;
 	background-color: var(--neptune-color);
 	display: inline-block;
 	transition: background-color 0.5s;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .blog-article__link:hover {
@@ -140,6 +140,7 @@ top: 50%;
 transform: translate(-50%, -50%);
 width: 40px;
 height: 50px;
+background-image: url("/img/play-2.svg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
