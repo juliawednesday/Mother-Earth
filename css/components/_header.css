@@ -102,7 +102,7 @@ transition: background-color 0.5s;
 
 .menu--visible {
 	right: 20px;
-	transition: left 0.8s;
+	transition: right 0.8s;
 }
 
 .menu__nav {
