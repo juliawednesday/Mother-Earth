@@ -91,6 +91,11 @@ background-image: url(/img/insp-2.jpg);
 .insp__item--3 {
 background-image: url(/img/insp-3.jpg);
 }
+
+.insp__item--3 img {
+	height: 710px;
+	width: 500px;
+}
 .insp__item--4 {
 background-image: url(/img/insp-4.jpg);
 }
