@@ -90,19 +90,17 @@ transition: background-color 0.5s;
 .menu {
 	position: fixed;
 	right: -150vw;
-	top: 30px;
 	width: 25%;
-	height: 60%;
+	height: 100%;
 	z-index: 1000;
 	background-color: var(--neptune-color);
 	opacity: 90%;
-	transition: right 0.8s;
-	border-radius: 8px;
+	transition: right 0.5s;
 }
 
 .menu--visible {
-	right: 20px;
-	transition: right 0.8s;
+	transition: right 0.5s;
+	right: 0px;
 }
 
 .menu__nav {
@@ -118,21 +116,23 @@ transition: background-color 0.5s;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	font-weight: 700;
+	align-items: flex-start;
+	font-weight: 600;
 	font-size: 30px;
+	padding-left: 35px;
+	line-height: 45px;
 }
 
 .menu__link {
 	color: var(--dark-color);
 	margin-bottom: 20px;
 	display: inline-block;
-	transition: color 0.8s;
+	transition: color 0.5s;
 }
 
 .menu__link:hover {
 	color: var(--black-color);
-	transition: color 0.8s;
+	transition: color 0.5s;
 }
 
 .menu__close {

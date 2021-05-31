@@ -74,10 +74,10 @@ max-width: 40%;
 	transition: background-color 0.5s;
 }
 
-.blog-article__link:hover {
+/*.blog-article__link:hover {
 	background-color: var(--neptune-hover-color);
 	transition: background-color 0.3s;
-}
+}*/
 
 .featured__title {
 font-weight: 700;
@@ -140,7 +140,7 @@ top: 50%;
 transform: translate(-50%, -50%);
 width: 40px;
 height: 50px;
-background-image: url("/img/");
+background-image: url("/img/play-2.svg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
