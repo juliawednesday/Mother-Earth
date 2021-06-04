@@ -1,6 +1,16 @@
+@media (max-width: 1920px) {
+.menu__list {
+	width: 70%;
+	height: 60%;
+}
+}
+
 @media (max-width: 1500px) {
 	.featured__stories {
 		padding: 80px 60px;
+	}
+	.menu__list {
+margin-top: 50px;
 	}
 }
 
@@ -35,6 +45,10 @@
 
 	.newsletter__form {
 		bottom: -31px;
+	}
+
+	.menu {
+		height: 80%;
 	}
 
 	/*.insp__descr {
@@ -85,6 +99,10 @@
 
 	.first__bottom {
 		bottom: -2px;
+		left: 50%;
+		right: -50%;
+		transform: translate(-50%, 0);
+		width: 50%;
 	}
 
 	.main-slider__text {
@@ -107,9 +125,11 @@
 		padding: 40px 60px;
 	}
 
+
 	.slider-container .swiper-slide {
 		min-height: 350px;
 	}
+
 
 	.newsletter__form {
 		left: 50%;
